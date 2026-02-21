@@ -7,7 +7,7 @@ const tasksRouter = require('./routes/tasks');
 
 // Root route
 app.get('/', (req, res) => {
-  res.json({ message: "DevOps Task Manager API is running..." });
+    res.json({ message: "Welcome from MAIN branch with refactored routes" });
 });
 
 // Use the tasks router for all /tasks routes
