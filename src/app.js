@@ -10,7 +10,8 @@ app.get('/', (req, res) => {
   res.json({ message: "Welcome from FEATURE branch" });
     res.json({ message: "Welcome from MAIN branch with refactored routes" });
 });
-
+// CI test change 
+console.log("Testing CI with a Pull Request");
 // Use the tasks router for all /tasks routes
 app.use('/tasks', tasksRouter);
 
