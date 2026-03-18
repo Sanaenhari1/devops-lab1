@@ -1,0 +1,7 @@
+# Ignorer tous les fichiers système
+.*
+!/.gitignore
+/Desktop/
+/Documents/
+/Downloads/
+/*/
